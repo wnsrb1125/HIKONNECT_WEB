@@ -14,7 +14,7 @@ window.Vue.use(VueRouter);
 import CompaniesIndex from './components/companies/CompaniesIndex.vue';
 import CompaniesCreate from './components/companies/CompaniesCreate.vue';
 import CompaniesEdit from './components/companies/CompaniesEdit.vue';
-import jungyu from './components/jungyu.vue';
+import jungyu from './components/jungyu.vue'
  
 const routes = [
     {
