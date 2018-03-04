@@ -14,6 +14,7 @@ window.Vue.use(VueRouter);
 import CompaniesIndex from './components/companies/CompaniesIndex.vue';
 import CompaniesCreate from './components/companies/CompaniesCreate.vue';
 import CompaniesEdit from './components/companies/CompaniesEdit.vue';
+import jungyu from './components/jungyu.vue';
  
 const routes = [
     {
@@ -24,6 +25,7 @@ const routes = [
     },
     {path: '/admin/companies/create', component: CompaniesCreate, name: 'createCompany'},
     {path: '/admin/companies/edit/:id', component: CompaniesEdit, name: 'editCompany'},
+    {path: '/test', component: jungyu, name: 'jungyu'}
 ]
  
 const router = new VueRouter({ routes })
